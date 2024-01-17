@@ -11,10 +11,12 @@ for (let i = 0; i < words.length; i++) {
     let word = words[i];
     let randomColor = getRandomColor(colorsArray);
     let coloredWord = randomColor(word);
-    
+
     let coloredJoke = "";
     coloredJoke += coloredWord + " ";
 }
+
+console.log(coloredJoke);
 
 
 function getRandomColor(colorsArray) {
