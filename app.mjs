@@ -10,9 +10,10 @@ let words = joke.split(" ");
 for (let i = 0; i < words.length; i++) {
     let word = words[i];
     let randomColor = getRandomColor(colorsArray);
-    let coloredJoke = randomColor(word);
-    console.log(coloredJoke);
-
+    let coloredWord = randomColor(word);
+    
+    let coloredJoke = "";
+    coloredJoke += coloredWord + " ";
 }
 
 
