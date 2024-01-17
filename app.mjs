@@ -19,8 +19,8 @@ console.log(coloredJoke);
 
 
 function getRandomColor(colorsArray) {
-    let randomNumber = Math.floor(Math.random() * colorsArray.length);
-    return colorsArray[randomNumber];
+    let random = Math.floor(Math.random() * colorsArray.length);
+    return colorsArray[random];
   }
 
 
